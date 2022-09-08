@@ -1,0 +1,31 @@
+.main {
+    @apply h-144 w-273 rounded-xl border border-gray-400 m-16 flex flex-col cursor-pointer;
+}
+.top {
+    @apply flex mt-17;
+}
+.colorLine {
+    @apply w-3 h-27;
+}
+.name {
+    @apply flex justify-start items-start font-bold text-sm;
+}
+.memberCount {
+    @apply flex justify-start text-xs text-gray-500;
+}
+.toolWrapper {
+    @apply flex mx-22 my-15 justify-start;
+}
+.toolCard {
+    @apply flex flex-col content-center items-center w-1/4;
+}
+.toolImage {
+    @apply my-7 mx-auto rounded-lg shadow-md;
+}
+.toolText {
+    font-size: 8px;
+    @apply w-4/5 mx-auto overflow-hidden text-center;
+}
+.plusBox {
+    @apply flex flex-col text-gray-400 text-center justify-center font-bold content-center items-center w-1/4 text-sm;
+}

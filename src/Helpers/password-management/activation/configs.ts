@@ -1,0 +1,1 @@
+export const DEFAULT_ITERATIONS = 100_000;

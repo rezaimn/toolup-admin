@@ -1,0 +1,49 @@
+.memberDashboard {
+    height: calc(100vh - 140px);
+    @apply overflow-auto;
+}
+
+.container {
+    box-shadow: 0px 4px 11px theme('colors.gray.200');
+    @apply bg-white p-20 rounded-lg overflow-auto relative flex flex-col;
+}
+
+.teamTools {
+    max-height: 417px;
+    min-height: 300px;
+    &:before {
+        content: '';
+        background: linear-gradient(
+            to bottom,
+            transparent,
+            theme('colors.white')
+        );
+        @apply absolute bottom-0 left-0 right-0 h-50;
+    }
+}
+
+.centered {
+    @apply h-full flex items-center justify-center my-auto;
+}
+
+.list {
+    @apply mt-20;
+}
+
+.teammatesSection {
+    @apply mt-30 flex flex-col lg:flex-row space-x-0 lg:space-x-30 flex-wrap lg:flex-nowrap space-y-10 lg:space-y-0;
+}
+
+.teammates {
+    @apply w-full lg:w-3/5;
+}
+
+.companyTeams {
+    @apply w-full lg:w-2/5;
+}
+
+.teammates,
+.companyTeams {
+    height: 417px;
+    @apply overflow-auto;
+}

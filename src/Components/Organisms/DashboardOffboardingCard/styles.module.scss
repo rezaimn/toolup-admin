@@ -1,0 +1,12 @@
+.wrapperCard {
+    min-height: 352px;
+    @apply flex flex-col;
+}
+
+.contentHeader {
+    @apply flex justify-between;
+}
+
+.emptyContent {
+    @apply flex items-center justify-center mt-10 h-160;
+}

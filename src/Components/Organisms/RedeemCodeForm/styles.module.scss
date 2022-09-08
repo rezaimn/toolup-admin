@@ -1,0 +1,78 @@
+.wrap {
+    @apply w-full
+    md:w-1/2
+    lg:w-1/3
+    bg-white
+    p-20
+    rounded-lg
+    shadow-md
+    mt-20;
+}
+
+.form {
+    @apply mt-30;
+}
+
+.submit {
+    @apply flex space-x-10;
+}
+.btn {
+    @apply font-bold;
+}
+
+.list {
+    @apply mt-20;
+}
+
+.register {
+    @apply w-full;
+}
+
+.header {
+    @apply flex
+    flex-col
+    items-center
+    mt-30;
+}
+.title {
+    @apply text-24
+    text-center
+    text-black;
+}
+
+.message {
+    color: #747474;
+    @apply text-16;
+}
+
+.input {
+    @apply uppercase;
+}
+
+.logoWrap {
+    @apply flex
+    justify-center
+    items-stretch
+    h-73;
+}
+
+.logo {
+    @apply w-67
+    mt-4;
+}
+
+.customLogo {
+    @apply w-140;
+}
+
+.companyName {
+    @apply mt-5
+    font-bold
+    text-17
+    text-black;
+}
+
+.seprator {
+    background: #d5d5d5;
+    @apply h-full w-1 ml-40 mr-30;
+}

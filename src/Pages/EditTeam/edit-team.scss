@@ -1,0 +1,13 @@
+.circle {
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    margin: 2px;
+    background-clip: content-box;
+    padding: 2px;
+}
+
+.circle:hover {
+    border: 1px solid;
+}

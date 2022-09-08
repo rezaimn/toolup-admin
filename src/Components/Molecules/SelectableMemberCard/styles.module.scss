@@ -1,0 +1,35 @@
+.member {
+    border: 1px solid #d5d5d5;
+    @apply rounded-lg
+    flex
+    flex-col
+    items-center
+    pt-14
+    pb-10
+    relative
+    cursor-pointer;
+}
+
+.selected {
+    border-width: 1px;
+    @apply border-primary border-solid;
+}
+
+.avatar {
+    @apply h-49 w-49 rounded-full mb-5;
+}
+
+.text {
+    color: #747474;
+    line-height: 19.6px;
+    @apply p-0 m-0 truncate text-14;
+}
+
+.checkbox {
+    @apply absolute
+    top-10
+    right-10
+    h-17
+    w-17
+    cursor-pointer;
+}

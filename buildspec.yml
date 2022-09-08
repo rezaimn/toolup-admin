@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+      
+  pre_build:
+    commands:
+      - echo Installing dependencies...
+      - npm i
+  build:
+    commands:
+      - echo Building...
+      - yarn build
+artifacts:
+  files:
+    - "**/*"
+  discard-paths: no
+  base-directory: build

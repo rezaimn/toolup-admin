@@ -1,0 +1,18 @@
+.text {
+    color: #747474;
+    @apply text-18 font-bold h-46;
+}
+
+.card {
+    @apply p-15
+    bg-white
+    shadow-sm
+    rounded-lg
+    w-full;
+}
+
+.title {
+    @apply font-bold 
+    text-primary
+    text-24;
+}

@@ -1,0 +1,27 @@
+.addTool {
+    height: calc(100vh - 140px);
+    @apply bg-white shadow-md rounded-lg p-20 w-full flex flex-col relative pb-70;
+}
+
+.tools {
+    @apply relative;
+}
+
+.title {
+    @apply text-center text-24 font-bold;
+}
+
+.search {
+    width: 50% !important;
+}
+
+.form {
+    overflow: auto;
+}
+
+.buttons {
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0);
+    @apply absolute bottom-0;
+}

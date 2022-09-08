@@ -1,0 +1,21 @@
+.wrapper {
+    @apply w-190 h-34 rounded-md bg-gray-300 flex overflow-hidden cursor-pointer select-none;
+}
+
+.pending {
+    @apply text-center text-14 text-white font-bold flex items-center w-90;
+    @apply w-1/2 justify-center;
+}
+
+.boarded {
+    @apply text-center text-14 text-white flex items-center font-bold w-90;
+    @apply w-1/2 justify-center;
+}
+
+.bg-yellow {
+    background: #facc15;
+}
+
+.bg-green {
+    background: #84cc16;
+}

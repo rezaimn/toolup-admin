@@ -1,0 +1,39 @@
+.errorWrap {
+    background: #f6f6f6;
+    @apply h-screen w-screen pt-50 flex flex-col items-center;
+}
+
+.logoWrap {
+    @apply mx-auto flex w-485 justify-center items-center;
+}
+
+.logoText {
+    @apply font-black text-30 ml-10;
+}
+
+.content {
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    @apply px-53 pt-20 pb-20 flex flex-col items-center w-485 bg-white;
+    @apply mt-50;
+}
+
+.logo {
+    @apply h-85 w-85 mt-41;
+}
+
+.title {
+    color: #ef4444;
+    @apply font-bold text-24 mt-22;
+}
+
+.message {
+    color: #747474;
+    @apply text-18 text-gray-600 font-bold mt-22 text-center;
+}
+
+.button {
+    outline: none !important;
+    @apply bg-primary text-white rounded-md uppercase;
+    @apply w-162 text-14 py-6 mt-60 font-bold;
+}

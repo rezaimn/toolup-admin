@@ -1,0 +1,15 @@
+.menu {
+    @apply flex absolute lg:relative -left-105 lg:left-0 w-104 h-full flex-col items-center bg-white z-50 lg:z-10 duration-500;
+}
+
+.menuButton {
+    @apply inline lg:hidden absolute m-10 bg-white;
+}
+
+.sidebarShadow {
+    @apply flex absolute w-full h-full opacity-50 bg-black lg:hidden z-40 duration-500;
+}
+
+.showMenu {
+    @apply left-0;
+}

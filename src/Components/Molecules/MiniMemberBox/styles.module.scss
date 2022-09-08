@@ -1,0 +1,12 @@
+.member {
+    @apply flex flex-col items-center p-5 w-1/4;
+}
+
+.avatar {
+    @apply h-26 w-26;
+}
+.name {
+    font-size: 8px;
+    color: #747474;
+    @apply text-center mt-7 truncate w-full;
+}

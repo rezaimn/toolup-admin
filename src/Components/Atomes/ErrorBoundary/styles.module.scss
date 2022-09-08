@@ -1,0 +1,7 @@
+.alert {
+    @apply h-screen w-screen flex items-center justify-center flex-col;
+}
+
+.message {
+    @apply text-18 font-bold mb-20;
+}

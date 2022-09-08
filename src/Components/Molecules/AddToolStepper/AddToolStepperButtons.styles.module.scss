@@ -1,0 +1,29 @@
+.buttonsWrap {
+    @apply my-20 block mx-auto;
+}
+
+.button {
+    outline: none !important;
+    @apply rounded-md flex items-center justify-center py-7 px-14;
+    @apply text-14 uppercase font-bold whitespace-nowrap;
+}
+
+.primary {
+    @apply bg-primary text-white;
+}
+
+.outline {
+    border-width: 1px;
+    @apply bg-white text-primary border-primary border-solid;
+
+    &:disabled {
+        color: #d5d5d5;
+        border-color: #d5d5d5;
+        @apply bg-white cursor-not-allowed;
+    }
+}
+
+.disabled {
+    background: #d5d5d5;
+    @apply text-white cursor-not-allowed border-none;
+}

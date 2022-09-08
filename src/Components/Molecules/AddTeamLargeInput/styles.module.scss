@@ -1,0 +1,39 @@
+.wrap {
+    @apply flex
+    w-full 
+    items-center
+    mx-auto
+    flex-col
+    h-68;
+}
+
+.input {
+    border: 1px solid #d5d5d5;
+    color: #747474;
+    @apply w-full
+    lg:w-3/5
+    py-7
+    px-20
+    rounded-lg
+    text-24
+    text-center;
+}
+
+.hasError {
+    border-color: theme('colors.red.600');
+    &:focus {
+        border-color: theme('colors.red.600');
+    }
+}
+
+.error {
+    transform: translateY(-5px);
+    transition: 300ms all ease-in-out;
+    @apply opacity-0 text-red-600 text-12 mt-2 ml-16;
+}
+
+.errorShow {
+    transition: 300ms all ease-in-out;
+    opacity: 1;
+    transform: translateY(0);
+}

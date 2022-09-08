@@ -1,0 +1,36 @@
+.footer {
+    color: #d3d3d3;
+    @apply p-20 flex items-center justify-center lg:justify-between;
+    @apply flex-wrap space-y-10 lg:space-y-0;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.logoIcon {
+    width: 48px;
+    height: 24px;
+}
+
+.betaIcon {
+    width: 45px;
+    height: 22px;
+    margin: 0 7px;
+}
+
+.logoText {
+    font-size: 21px;
+}
+
+.terms {
+    font-size: 14px;
+    @apply w-full lg:w-auto text-center;
+}
+
+.contact {
+    img {
+        height: 23px;
+        width: 23px;
+    }
+}

@@ -1,0 +1,12 @@
+.addTool {
+    @apply flex flex-col items-center justify-center;
+    @apply cursor-pointer;
+}
+
+.icon {
+    @apply w-40 h-40;
+}
+
+.title {
+    @apply text-18 mt-19;
+}

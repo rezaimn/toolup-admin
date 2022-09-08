@@ -1,0 +1,63 @@
+.form {
+    @apply flex flex-col space-y-22 mb-20;
+}
+
+.title {
+    @apply text-black text-base font-bold;
+}
+
+.formContent {
+    @apply flex space-x-5;
+}
+
+.formFooter {
+    @apply flex justify-end space-x-10;
+}
+
+.avatar {
+    @apply h-35 w-35 rounded-full overflow-hidden;
+
+    img {
+        @apply w-full h-full object-fill;
+    }
+}
+
+.input {
+    @apply flex-1;
+}
+
+.dateInput {
+    border: 1px solid #d5d5d5;
+    outline: none;
+    transition: 300ms all ease-in-out;
+    @apply py-7 px-10 rounded-md text-14 flex items-center space-x-5;
+
+    input {
+        @apply w-120;
+        &:focus {
+            @apply border-primary;
+        }
+
+        &::placeholder {
+        }
+    }
+}
+
+.hasError {
+    border-color: theme('colors.red.600');
+    &:focus {
+        border-color: theme('colors.red.600');
+    }
+}
+
+.error {
+    transform: translateY(-5px);
+    transition: 300ms all ease-in-out;
+    @apply opacity-0 text-red-600 text-12 mt-2 ml-16;
+}
+
+.errorShow {
+    transition: 300ms all ease-in-out;
+    opacity: 1;
+    transform: translateY(0);
+}

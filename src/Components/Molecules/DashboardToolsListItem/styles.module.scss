@@ -1,0 +1,33 @@
+.icon {
+    color: #747474;
+    @apply 2xl:h-80
+    2xl:w-80
+    w-62
+    h-62
+    shadow-md
+    rounded-xl
+    flex
+    items-center
+    justify-center
+    font-bold
+    text-24;
+}
+
+.name {
+    @apply text-black
+    font-bold 
+    2xl:text-20
+    text-14
+    text-center
+    mt-20
+    max-w-full
+    truncate;
+}
+
+.item {
+    @apply flex
+    flex-col
+    items-center
+    rounded-lg
+    cursor-pointer;
+}

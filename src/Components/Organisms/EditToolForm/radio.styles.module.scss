@@ -1,0 +1,45 @@
+.row {
+    @apply flex
+    xl:items-center
+    xl:flex-row
+    xl:space-x-16
+    w-full
+    flex-col
+    items-start;
+}
+
+.radioWrap {
+    background: #ffffff;
+    border: 1px solid #d5d5d5;
+    box-sizing: border-box;
+    border-radius: 5px;
+    @apply h-34 px-16 flex items-center w-full lg:w-417;
+}
+
+.disabled {
+    @apply opacity-50 cursor-not-allowed;
+}
+
+.label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #747474;
+}
+
+.text {
+    @apply text-12;
+}
+
+.radio {
+    @apply mr-16;
+}
+
+.info {
+    @apply xl:mx-8;
+}
+
+.infoWrap {
+    @apply flex items-center mt-5 xl:mt-0 space-x-10 xl:space-x-0;
+}

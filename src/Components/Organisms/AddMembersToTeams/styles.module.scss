@@ -1,0 +1,23 @@
+.addMembersToTeams {
+    @apply flex space-x-10 overflow-hidden;
+}
+
+.members {
+    @apply w-full md:w-3/4 2xl:w-4/5 overflow-y-scroll overflow-x-hidden;
+}
+
+.minHeight {
+    height: calc(100vh - 200px);
+}
+
+.fullHeight {
+    height: calc(100vh - 350px);
+}
+
+.teams {
+    @apply w-full md:w-1/3 2xl:w-1/5 overflow-y-scroll overflow-x-hidden;
+}
+
+.title {
+    @apply text-primary text-base font-bold;
+}

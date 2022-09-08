@@ -1,0 +1,55 @@
+.banner {
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-top-width: 5px;
+    @apply w-full border-primary border-solid;
+    @apply bg-white py-15 px-30 rounded-bl-lg rounded-br-lg;
+    @apply flex items-center mb-20;
+}
+
+.bannerWithSpinner {
+    @apply justify-center;
+}
+
+.buttonSpinner {
+    @apply h-15 w-15;
+}
+
+.infoIcon {
+    @apply w-20 h-20;
+}
+
+.message {
+    color: #212121;
+    @apply ml-20 text-14;
+}
+
+.button {
+    outline: none !important;
+    @apply capitalize rounded-lg py-4 px-20 font-bold;
+}
+
+.primaryButton {
+    @apply bg-primary text-white border-2 border-primary;
+}
+
+.dangerButton {
+    background: #f23d3d;
+    border-color: #f23d3d;
+    @apply text-white border-2;
+}
+
+.outlineButton {
+    @apply border-2 border-primary;
+}
+
+.continueSetup {
+    @apply ml-50;
+}
+
+.resetSetup {
+    @apply ml-20;
+}
+
+.cancelSetup {
+    @apply ml-auto;
+}

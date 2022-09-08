@@ -1,0 +1,16 @@
+.breadcrumb {
+    @apply flex space-x-10 items-center font-bold;
+}
+
+.link {
+    @apply bg-black;
+}
+
+.title {
+    color: #747474;
+    @apply text-12 md:text-18;
+}
+
+.main {
+    @apply text-primary text-14 md:text-28 font-bold;
+}

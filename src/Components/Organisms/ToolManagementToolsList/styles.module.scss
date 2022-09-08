@@ -1,0 +1,13 @@
+.list {
+    @apply flex -mx-10 flex-wrap;
+}
+
+.item {
+    @apply p-10
+    truncate
+    w-full
+    sm:w-1/2
+    md:w-1/4
+    lg:w-1/5
+    2xl:w-1/6;
+}

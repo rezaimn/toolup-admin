@@ -1,0 +1,36 @@
+.colorPicker {
+    @apply w-346 block mx-auto;
+}
+
+.title {
+    @apply text-center text-14 text-primary font-bold mb-30;
+}
+.list {
+    @apply flex flex-wrap content-start -mx-18;
+}
+
+.colorItem {
+    @apply mx-18 mb-36;
+}
+
+.color {
+    @apply h-40 w-40 rounded-full cursor-pointer relative;
+}
+
+.active {
+    // box-sizing: unset !important;
+    @apply border-2 border-solid border-white relative;
+
+    &:after {
+        content: '';
+        @apply absolute
+        -top-5
+        -left-5
+        -right-5
+        -bottom-5
+        border-2
+        border-primary
+        border-solid
+        rounded-full p-2;
+    }
+}

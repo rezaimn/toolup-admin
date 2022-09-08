@@ -1,0 +1,24 @@
+.addTeam {
+    height: calc(100vh - 140px);
+    @apply bg-white
+    shadow-md
+    rounded-lg
+    pt-20
+    px-20
+    w-full
+    flex
+    flex-col
+    relative
+    pb-70
+    overflow-hidden;
+}
+
+.content {
+    max-height: calc(100% - 100px);
+    @apply overflow-auto;
+}
+.buttons {
+    left: 50%;
+    transform: translate(-50%, 0);
+    @apply absolute bottom-10;
+}

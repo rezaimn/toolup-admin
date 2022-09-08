@@ -1,0 +1,11 @@
+.form {
+    @apply flex items-center flex-col;
+}
+
+.nameInput {
+    @apply mb-20 mt-10;
+}
+
+.colorPicker {
+    @apply mt-40;
+}

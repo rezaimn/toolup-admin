@@ -1,0 +1,36 @@
+.form {
+}
+
+.password {
+    input {
+        height: 59px;
+    }
+}
+
+.inputWrapper {
+    @apply w-full flex mt-20;
+}
+
+.innerInput {
+    @apply w-full mr-40;
+}
+
+.icon {
+    @apply mx-24;
+}
+
+.buttons {
+    @apply flex justify-center mt-30;
+}
+
+.label {
+    @apply text-lg text-blue-900 font-bold mb-14;
+}
+
+.cancelButton {
+    @apply w-104 text-sm font-bold mx-12;
+}
+
+.submitButton {
+    @apply w-104 bg-blue-900 hover:bg-blue-900 focus:bg-blue-900 mx-12 text-white hover:text-white focus:text-white text-sm font-bold border-0;
+}

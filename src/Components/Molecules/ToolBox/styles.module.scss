@@ -1,0 +1,7 @@
+.customBanner {
+    background: #84cc16;
+    transform: rotate(-45deg);
+    font-size: 6px;
+    @apply h-20 w-70 text-white absolute -top-6 -left-27 flex items-center;
+    @apply justify-center;
+}

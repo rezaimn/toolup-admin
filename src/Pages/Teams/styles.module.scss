@@ -1,0 +1,18 @@
+.main {
+    @apply w-full bg-white ;
+}
+.header {
+    @apply flex justify-end mt-20 items-center w-full;
+}
+.searchWrapper {
+    @apply flex w-full mt-15 mr-33 lg:w-5/12 lg:justify-end justify-center;
+}
+.itemWrapper {
+    @apply flex flex-wrap overflow-auto justify-self-stretch content-start;
+}
+.addButton {
+    @apply h-144 w-273 m-16 flex flex-col items-center justify-center cursor-pointer;
+}
+.spinner {
+    @apply h-160 flex items-center justify-center;
+}

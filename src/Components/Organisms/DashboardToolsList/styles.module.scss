@@ -1,0 +1,12 @@
+.list {
+    @apply flex
+    flex-wrap
+    mt-20;
+}
+
+.item {
+    @apply w-1/2
+    md:w-1/3
+    lg:w-1/4
+    mb-30;
+}

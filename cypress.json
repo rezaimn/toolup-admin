@@ -1,0 +1,20 @@
+{
+    "baseUrl": "http://rezatest.staging.toolup.local:3000",
+    "supportFile": "cypress/support/index.ts",
+    "testFiles": [
+        "before-all.spec.ts",
+        "login.spec.ts",
+        "add_member.spec.ts",
+        "edit_member.spec.ts",
+        "add_tool.spec.ts",
+        "add_team.spec.ts",
+        "edit_team.spec.ts",
+        "signup.spec.ts",
+        "forgotPassword.spec.ts",
+        "resetPassword.spec.ts",
+        "setPassword.spec.ts",
+        "completeRegistration.spec.ts"
+
+        ],
+        "defaultCommandTimeout": 10000
+}

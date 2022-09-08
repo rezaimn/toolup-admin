@@ -1,0 +1,31 @@
+version: 0.2
+phases:
+    pre_build:
+        commands:
+            - buildExitCode=1
+            - export NODE_OPTIONS=--max_old_space_size=8192
+            - sed -i -e '$a\' .npmrc
+            - echo "//npm.pkg.github.com/:_authToken=$GITHUB_TOKEN" >> .npmrc
+            - echo Install Dependencies
+            - npm i
+    build:
+        commands:
+            - NODE_ENV=production
+            - echo Building Project
+            - (npm run build)
+            - buildExitCode=$?
+        finally:
+            - |
+                if [ "$buildExitCode" -ne 0 ]; then
+                    badge_status=failing
+                    badge_colour=red
+                else
+                    badge_status=passing
+                    badge_colour=green
+                fi
+            - curl -s "https://img.shields.io/badge/Build-$badge_status-$badge_colour.svg" > production-build.svg
+            - aws s3 cp production-build.svg s3://toolup-build-status/badges/production-build.svg --acl public-read --cache-control no-cache
+artifacts:
+    files:
+        - '**/*'
+    base-directory: build

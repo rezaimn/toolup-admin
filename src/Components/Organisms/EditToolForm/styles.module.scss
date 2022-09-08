@@ -1,0 +1,105 @@
+.form {
+}
+
+.title {
+    @apply text-primary text-16 font-bold;
+}
+
+.section {
+    @apply mb-42;
+}
+
+.sectionContent {
+    @apply ml-0 md:ml-100 2xl:ml-233 mt-36;
+}
+
+.toolDetails {
+    @apply flex flex-col lg:flex-row space-x-0 lg:space-x-42;
+}
+
+.imageUpload {
+    @apply flex flex-col w-98 space-y-10 items-center;
+}
+
+.image {
+    @apply w-98 h-98 rounded-lg;
+}
+
+.imageError {
+    @apply border-2 border-red-600 border-solid;
+}
+
+.button {
+    outline: none !important;
+    @apply capitalize rounded-lg py-6 text-12 w-94 text-center cursor-pointer;
+}
+
+.outlineButton {
+    border-width: 1px;
+    @apply border-primary;
+}
+
+.fileInput {
+    @apply hidden;
+}
+
+.toolInfo {
+    @apply w-full lg:w-417 flex flex-col space-y-26;
+}
+
+.accessOptionsSectionContent {
+    @apply ml-0 md:ml-100 2xl:ml-369 space-y-23;
+}
+
+.integration {
+    @apply flex items-center w-full flex-col;
+}
+
+.integrationWrap {
+    @apply flex flex-col md:flex-row flex-wrap;
+}
+
+.autoProvisioning,
+.apiSettings {
+    border: 1px solid #d5d5d5;
+    color: #747474;
+    @apply opacity-50 bg-white
+    h-47
+    px-10
+    mt-10
+    lg:w-196
+    flex
+    items-center
+    justify-center
+    cursor-not-allowed
+    w-full;
+}
+
+.autoProvisioning {
+    border-radius: 5px 0 0 5px;
+}
+
+.apiSettings {
+    border-radius: 0 5px 5px 0;
+}
+
+.provisioningMessage {
+    @apply mt-18 flex space-x-6 items-center;
+}
+
+.doneButton {
+    background: #01395e;
+    border: 1px solid #01395e;
+    box-sizing: border-box;
+    border-radius: 5px;
+    @apply text-white bg-primary border-primary font-bold;
+}
+
+.deleteButton {
+    border-radius: 5px;
+    @apply text-12 py-5;
+}
+.disabled {
+    background: #d5d5d5;
+    @apply text-white cursor-not-allowed border-none;
+}

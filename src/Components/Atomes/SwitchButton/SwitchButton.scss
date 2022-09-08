@@ -1,0 +1,8 @@
+.wrapper {
+    @apply w-220 h-34 rounded-md bg-gray-300 flex overflow-hidden cursor-pointer select-none;
+}
+
+.switch-button {
+    @apply text-center text-14 text-white flex items-center font-bold w-105;
+    @apply w-1/2 justify-center;
+}

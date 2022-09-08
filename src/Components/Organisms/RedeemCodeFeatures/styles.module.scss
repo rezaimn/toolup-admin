@@ -1,0 +1,67 @@
+.wrap {
+    @apply w-full
+    md:w-1/2
+    lg:w-1/3
+    bg-white
+    p-20
+    rounded-lg
+    shadow-md
+    mt-20;
+}
+.header {
+    @apply flex
+    justify-center
+    text-22
+    font-bold
+    mb-30
+    whitespace-pre;
+}
+
+.planText {
+    @apply text-black text-18;
+}
+
+.price {
+    color: #84cc16;
+    @apply text-18;
+}
+
+.register {
+    @apply font-bold;
+}
+
+.list {
+    @apply mt-20
+    w-full
+    md:w-1/3
+    lg:w-1/4;
+}
+
+.feature {
+    @apply mt-20 text-16 px-14;
+    &:not(:last-child) {
+        @apply mb-36;
+    }
+}
+
+.title {
+    @apply text-primary
+    text-18
+    font-bold 
+    mt-20;
+}
+
+.list {
+    @apply w-full;
+
+    li {
+        line-height: 30px;
+
+        @apply flex
+        items-center w-full;
+        &:before {
+            content: '';
+            @apply rounded-full w-7 h-7 bg-primary mr-5;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.wrapper {
+    height: calc(100vh - 140px);
+    @apply flex flex-col bg-white overflow-auto;
+}
+
+.headerForm {
+    @apply flex text-black text-base font-bold;
+}
+
+.avatar {
+    @apply h-234 w-234 mt-34 ml-50;
+}
+
+.userData {
+    @apply flex flex-col ml-24;
+}
+
+.email {
+    @apply font-bold text-lg mt-90;
+}
+
+.name {
+    @apply text-base text-gray-400 mt-9 font-medium;
+}
+.changeButton {
+    @apply mt-60 font-bold;
+}
+.tabWrapper {
+    @apply w-4/6 mx-auto mt-60;
+}

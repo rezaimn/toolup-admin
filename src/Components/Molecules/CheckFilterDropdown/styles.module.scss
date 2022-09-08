@@ -1,0 +1,9 @@
+.row {
+    & ~ input:checked {
+        @apply text-primary;
+    }
+
+    & ~ input:not(:checked) {
+        @apply text-gray-500;
+    }
+}

@@ -1,0 +1,25 @@
+.checkmarked {
+    background: rgba(115, 205, 83, 0.7);
+    @apply absolute
+    top-0
+    left-0
+    right-0
+    bottom-0
+    opacity-70
+    flex
+    items-center
+    justify-center;
+}
+
+.image {
+    @apply w-31
+    h-31;
+}
+
+.wrap {
+    @apply relative
+    w-31
+    h-31
+    overflow-hidden
+    rounded-full;
+}

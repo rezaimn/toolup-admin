@@ -1,0 +1,183 @@
+{
+    "organizations": [
+        {
+            "name": "HamidTest",
+            "subdomain": "hamidtest",
+            "team_size": "1-10",
+            "setup_finished": 1,
+
+
+            "members": [
+                {
+                    "email": "mohammadrezaimn@gmail.com",
+                    "first_name": "reza",
+                    "last_name": "imani",
+                    "password": "Aa@12345*",
+                    "access": "Owner",
+                    "status": "ONBOARDED",
+                    "member_status": "ACTIVE",
+                    "email_verified_at": "2021/04/13"
+                },
+                {
+                    "email": "normal_user_for_update_info@gmail.com",
+                    "first_name": "normalUserForUpdateInfo",
+                    "last_name": "normalUserForUpdateInfo",
+                    "password": "Aa@12345*",
+                    "access": "Normal User",
+                    "status": "NOT_ONBOARDED",
+                    "member_status": "NEW"
+                },
+                {
+                    "email": "not_onboarded_new_normal_user@gmail.com",
+                    "first_name": "notOnboardedNewNormalUser",
+                    "last_name": "notOnboardedNewNormalUser",
+                    "password": "Aa@12345*",
+                    "access": "Normal User",
+                    "status": "NOT_ONBOARDED",
+                    "member_status": "NEW"
+                },
+                {
+                    "email": "not_onboarded_invited_normal_user@gmail.com",
+                    "first_name": "notOnboardedInvitedNormalUser",
+                    "last_name": "notOnboardedInvitedNormalUser",
+                    "password": "Aa@12345*",
+                    "access": "Normal User",
+                    "status": "NOT_ONBOARDED",
+                    "member_status": "INVITED"
+                },
+                {
+                    "email": "not_onboarded_active_normal_user@gmail.com",
+                    "first_name": "notOnboardedActiveNormalUser",
+                    "last_name": "notOnboardedActiveNormalUser",
+                    "password": "Aa@12345*",
+                    "access": "Normal User",
+                    "status": "NOT_ONBOARDED",
+                    "member_status": "ACTIVE",
+                    "email_verified_at": "2021/04/13"
+                },
+                {
+                    "email": "not_onboarded_active_normal_user_for_delete@gmail.com",
+                    "first_name": "notOnboardedActiveNormalUserForDelete",
+                    "last_name": "notOnboardedActiveNormalUserForDelete",
+                    "password": "Aa@12345*",
+                    "access": "Normal User",
+                    "status": "NOT_ONBOARDED",
+                    "member_status": "ACTIVE",
+                    "email_verified_at": "2021/04/13"
+                },
+                {
+                    "email": "onboarding_new_normal_user@gmail.com",
+                    "first_name": "OnboardingNewNormalUser",
+                    "last_name": "OnboardingNewNormalUser",
+                    "password": "Aa@12345*",
+                    "access": "Normal User",
+                    "status": "ONBOARDING",
+                    "member_status": "NEW",
+                    "onboarding_date": "2021/04/13"
+                },
+                {
+                    "email": "onboarded_new_normal_user@gmail.com",
+                    "first_name": "OnboardedNewNormalUser",
+                    "last_name": "OnboardedNewNormalUser",
+                    "password": "Aa@12345*",
+                    "access": "Normal User",
+                    "status": "ONBOARDED",
+                    "member_status": "NEW",
+                    "onboarding_date": "2021/04/13"
+                },
+                {
+                    "email": "not_offboarded_new_normal_user@gmail.com",
+                    "first_name": "NotOffboardedNewNormalUser",
+                    "last_name": "NotOffboardedNewNormalUser",
+                    "password": "Aa@12345*",
+                    "access": "Normal User",
+                    "status": "NOT_OFFBOARDED",
+                    "member_status": "NEW",
+                    "offboarding_date": "2021/04/13"
+                },
+                {
+                    "email": "offboarded_new_normal_user@gmail.com",
+                    "first_name": "OffboardedNewNormalUser",
+                    "last_name": "OffboardedNewNormalUser",
+                    "password": "Aa@12345*",
+                    "access": "Normal User",
+                    "status": "OFFBOARDED",
+                    "member_status": "NEW",
+                    "offboarding_date": "2021/04/13"
+                }
+            ],
+            "tools": [
+                {
+                    "name": "phpstorm",
+                    "category": "Tech",
+                    "config": {
+                        "key": "value"
+                    }
+                },
+                {
+                    "name": "jira",
+                    "category": "Develop",
+                    "config": {
+                        "key": "value"
+                    }
+                }
+            ],
+
+            "teams": [
+                {
+                    "name": "General",
+                    "color": "#343434",
+                    "members": [
+                        "mohammadrezaimn@gmail.com",
+                        "not_onboarded_new_normal_user@gmail.com",
+                        "not_onboarded_invited_normal_user@gmail.com",
+                        "not_onboarded_active_normal_user@gmail.com",
+                        "onboarding_new_normal_user@gmail.com",
+                        "onboarded_new_normal_user@gmail.com",
+                        "not_offboarded_new_normal_user@gmail.com",
+                        "offboarded_new_normal_user@gmail.com"
+                    ]
+                },
+                {
+                    "name": "Test Team",
+                    "color": "#343434",
+                    "members": [
+                        "mohammadrezaimn@gmail.com",
+                        "not_onboarded_new_normal_user@gmail.com",
+                        "not_onboarded_invited_normal_user@gmail.com",
+                        "not_onboarded_active_normal_user@gmail.com",
+                        "onboarding_new_normal_user@gmail.com",
+                        "onboarded_new_normal_user@gmail.com",
+                        "not_offboarded_new_normal_user@gmail.com",
+                        "offboarded_new_normal_user@gmail.com"
+                    ],
+                    "tools": ["phpstorm",
+                        "jira"]
+                }
+            ],
+
+            "tool_members": [
+                {
+                    "name": "phpstorm",
+                    "members": [
+                        {
+                            "email": "mohammadrezaimn@gmail.com",
+                            "status": "ONBOARDED",
+                            "boarding_date": "2021/4/10"
+                        },
+                        {
+                            "email": "onboarded_new_normal_user@gmail.com",
+                            "status": "ONBOARDED",
+                            "boarding_date": "2021/4/10"
+                        },
+                        {
+                            "email": "not_offboarded_new_normal_user@gmail.com",
+                            "status": "NOT_OFFBOARDED",
+                            "boarding_date": "2021/4/10"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

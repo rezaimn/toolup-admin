@@ -1,0 +1,28 @@
+.temmatesList {
+    @apply flex flex-col h-full;
+}
+
+.centered {
+    @apply h-full flex items-center justify-center;
+}
+
+.titleSection {
+    @apply flex flex-col;
+}
+
+.title {
+    @apply font-bold text-18 text-primary;
+}
+
+.description {
+    color: #747474;
+    @apply font-bold text-16 mt-3;
+}
+
+.list {
+    @apply mt-10 flex -mx-10 flex-wrap;
+}
+
+.item {
+    @apply w-full md:w-1/2 md:px-10 mb-20;
+}

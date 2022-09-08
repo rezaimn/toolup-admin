@@ -1,0 +1,22 @@
+.toolManagement {
+    height: calc(100vh - 140px);
+    @apply bg-white
+    shadow-md
+    p-10
+    md:p-30
+    rounded-lg
+    overflow-y-auto
+    overflow-x-hidden;
+}
+
+.centered {
+    @apply flex items-center justify-center;
+}
+
+.list {
+    height: calc(100vh - 300px);
+    @apply mt-20
+    content-start
+    overflow-y-auto
+    overflow-x-hidden;
+}

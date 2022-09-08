@@ -1,0 +1,18 @@
+import React, { ComponentPropsWithoutRef, FC } from "react";
+/* components */
+/* modules */
+import cn from 'clsx';
+/* helpers */
+/* assets */
+/* styles */
+/* types */
+export type Common{{properCase name}}Props = {}
+export type {{properCase name}}Props = Omit< ComponentPropsWithoutRef<'div'>,
+    keyof Common{{properCase name}}Props
+    > &
+    Common{{properCase name}}Props;
+
+    export const {{properCase name}}: FC<{{properCase name}}Props> = ({ className, ...restProps }) => {
+        return <div className={cn(className)}></div>;
+
+        };

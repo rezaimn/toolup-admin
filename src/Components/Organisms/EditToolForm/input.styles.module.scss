@@ -1,0 +1,44 @@
+.input {
+    border: 1px solid #d5d5d5;
+    outline: none;
+    transition: 300ms all ease-in-out;
+    color: #747474;
+    @apply w-full py-7 px-16 rounded-md text-14;
+    &:focus {
+        @apply border-primary;
+    }
+}
+
+.hasError {
+    border-color: theme('colors.red.600');
+    &:focus {
+        border-color: theme('colors.red.600');
+    }
+}
+
+.error {
+    transform: translateY(-5px);
+    transition: 300ms all ease-in-out;
+    @apply opacity-0 text-red-600 text-12 mt-2 ml-16;
+}
+
+.errorShow {
+    transition: 300ms all ease-in-out;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.toolName {
+    @apply font-bold text-18 ml-16 mt-10;
+}
+
+.systemOrigin {
+    background: #000;
+    margin-left: 16px !important;
+}
+
+.help {
+    color: #d5d5d5;
+    line-height: 20.8px;
+    @apply text-12 md:ml-16 mt-3 break-words;
+}

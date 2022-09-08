@@ -1,0 +1,47 @@
+.tool {
+    border-width: 1px;
+    @apply border-gray-300
+    rounded-lg
+    py-15
+    flex
+    flex-col
+    items-center
+    cursor-pointer
+    relative
+    overflow-hidden
+    hover:border-primary
+    hover:shadow-lg
+    transition-all
+    ease-in-out
+    duration-200;
+}
+
+.icon {
+    @apply h-54 w-54 rounded-lg;
+}
+
+.name {
+    @apply text-black
+    text-18
+    capitalize
+    mt-6
+    w-full
+    truncate
+    text-center;
+}
+
+.originBanner {
+    background: #84cc16;
+    font-size: 8px;
+    @apply h-30
+    w-70
+    text-white
+    absolute
+    -top-3
+    -left-23
+    flex
+    items-center
+    justify-center
+    transform 
+    -rotate-45;
+}

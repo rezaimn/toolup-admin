@@ -1,0 +1,35 @@
+.wrapper {
+    display: flex;
+    max-width: 100vw;
+    overflow: hidden;
+    touch-action: none;
+}
+.contentWrapper {
+    @apply flex items-start w-full;
+}
+.admin {
+    width: calc(100% - 104px);
+}
+.content {
+    padding: 0 40px 30px 40px;
+    display: flex;
+    flex-direction: column;
+    .content-header {
+        /* flex: 1; */
+    }
+    .content-body {
+        flex: 10;
+    }
+    .content-footer {
+        flex: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .admin {
+        width: 100%;
+    }
+    .content {
+        padding: 0 20px 15px 20px;
+    }
+}

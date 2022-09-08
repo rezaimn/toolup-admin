@@ -1,0 +1,44 @@
+// colors
+$blue: #0c4a6e;
+$bg-light: #d4d4d4;
+$bg-med: #eee;
+.checkbox {
+    display: flex;
+    align-items: center;
+}
+.checkbox > input {
+    height: 24px;
+    width: 24px;
+    min-width: 20px;
+    appearance: none;
+    border: 1px solid $blue;
+    border-radius: 4px;
+    outline: none;
+    transition-duration: 0.1s;
+    background-color: white;
+    cursor: pointer;
+    color: white;
+    overflow: hidden;
+}
+
+.checkbox > input:checked {
+    border: 1px solid $blue;
+    background-color: $blue;
+    color: white;
+}
+
+.checkbox > input:checked:before {
+    content: '\2713';
+    font-size: 24px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    margin-top: -6px;
+    object-fit: contain;
+    text-align: center;
+    border: 1px solid $blue;
+    background-color: $blue;
+    color: white;
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,19 @@
+.legend {
+    border-width: 1px;
+    @apply border-primary
+    border-solid
+    p-10
+    relative
+    rounded-lg;
+}
+
+.title {
+    @apply font-bold 
+    text-primary
+    text-16
+    absolute
+    -top-14
+    -left-3
+    bg-white
+    pr-5;
+}

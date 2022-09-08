@@ -1,0 +1,11 @@
+.membersIcon {
+    @apply bg-gray-500 flex items-center justify-center rounded-lg relative;
+}
+
+.membersIconImage {
+    @apply w-24 h-24;
+}
+
+.memberIconBadge {
+    @apply absolute -top-6 -right-6 bg-red-500 text-white h-17 w-17 flex items-center justify-center rounded-full text-14;
+}

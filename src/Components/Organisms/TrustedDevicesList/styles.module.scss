@@ -1,0 +1,15 @@
+.title {
+    @apply text-primary
+    text-base
+    font-bold
+    mb-19;
+}
+
+.seprator {
+    background: #d5d5d5;
+    @apply w-full h-1 block;
+}
+
+.spinner {
+    @apply flex justify-center;
+}

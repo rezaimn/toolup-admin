@@ -1,0 +1,58 @@
+.wrapper {
+    @apply w-9/12 mx-auto mt-50;
+}
+
+.label {
+    @apply text-lg text-gray-400 font-bold mb-14;
+}
+
+.secretKey {
+    input {
+        height: 69px;
+    }
+    @apply text-xl mt-14;
+}
+
+.addonWrapper {
+    @apply flex items-center justify-between;
+}
+
+.downloadButtonActive {
+    @apply flex justify-center items-center flex-col bg-blue-900 hover:bg-blue-900 focus:bg-blue-900 text-xs text-white hover:text-white focus:text-white border-0 h-82 -mr-12 rounded-tl-none rounded-bl-none;
+}
+
+.downloadButton {
+    @apply flex justify-center items-center flex-col bg-gray-200 hover:bg-gray-200 focus:bg-gray-200 text-xs text-white hover:text-white focus:text-white border-0 h-82 -mr-12 rounded-tl-none rounded-bl-none;
+}
+
+.downloadText {
+    @apply text-white;
+}
+
+.downloadIcon {
+    @apply mt-20;
+}
+
+.copy {
+    @apply cursor-pointer w-50 -ml-12 bg-white h-82 flex justify-center items-center;
+}
+
+.keyWrapper {
+    @apply flex w-full justify-center mt-75;
+}
+
+.regenerateKeyWrapper {
+    @apply flex w-full justify-end mt-75;
+}
+
+.activeKey {
+    @apply h-55 w-417 bg-green-400 hover:bg-green-400 focus:bg-green-400 text-white hover:text-white focus:text-white text-sm font-bold border-0;
+}
+
+.regenerateKey {
+    @apply h-55 w-389 bg-blue-900 hover:bg-blue-900 focus:bg-blue-900 self-end text-white hover:text-white focus:text-white text-sm font-bold border-0;
+}
+
+.trustedDevices {
+    @apply mt-20;
+}
